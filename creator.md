@@ -9,7 +9,7 @@ The **CREATOR** user role is given to students in a class that is utilizing the 
  * Navigate in a browser to the URL app.vocat.io
  * Log in with Baruch email address and Active Directory password (same password used to log in to email, on-campus WiFi, and computer lab or classroom computers)
 
-*IMAGE*
+![Image One](image_assets/creator/one.png)
 
 ### Dashboard
 ---
@@ -19,7 +19,7 @@ The **CREATOR** user role is given to students in a class that is utilizing the 
 
 This is the first page arrived at after logging in. It displays an overview of the creator’s courses, showing course titles, project submissions, and scores. It also provides thumbnail versions of the user’s most recently added videos.
 
-*IMAGE*
+![Image Two](image_assets/creator/two.png)
 
 ### Creating New Video Submissions
 ---
@@ -32,7 +32,7 @@ This is the first page arrived at after logging in. It displays an overview of t
 From the dashboard a creator can choose to specify a single class using the left-top corner dropdown, or the creator can choose to remain on the dashboard where all class assignments can be viewed. If the student has not yet created a video submission for an enrolled in class, there will appear on the dashboard a frame with a button that reads **NO VIDEO HAS BEEN UPLOADED**.
 From here the creator should click on the hyperlink **VIEW SUBMISSION DETAIL** in the bottom-right of the relevant video/evaluation panel or on project title. The next page should look similar, but instead of the button in the center of the thumbnail frame should read **ADD A VIDEO TO THIS SUBMISSION**. By clicking on this button, a series of options appears, allowing the creator to choose a method by which to upload his or her video submission.
 
-*IMAGE*
+![Image Three](image_assets/creator/three.png)
 
 ### YouTube and Vimeo
 ---
@@ -47,18 +47,18 @@ If the creator chooses to upload a video directly to VOCAT, it should be kept in
 
 The video thumbnail should go from looking like this:
 
-*IMAGE*
+![Image Four](image_assets/creator/four.png)
 
 To looking like this:
 
-*IMAGE*
+![Image Five](image_assets/creator/five.png)
 
 ### Annotations
 ---
 
 Both the creator and evaluator have the ability to annotate video submissions. The annotation tool automatically logs the time at which the annotation is composed. All the creator or evaluator has to do to annotate is during video playback, simply enter annotation text in the text box below video screen that reads ***Enter a video annotation…***
 
-*IMAGE*
+![Image Six](image_assets/creator/six.png)
 
 ### Scores
 ---

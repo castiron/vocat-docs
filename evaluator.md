@@ -8,7 +8,7 @@ The **EVALUATOR** user role is given to the instructor of a class that is utiliz
  * Navigate in a browser to the URL **app.vocat.io**
  * Log in with Baruch email address and Active Directory password (same password used to log in to email, on-campus WiFi, and computer lab or classroom computers)
 
-*IMAGE*
+![Image One](image_assets/evaluator/one.png)
 
 ### Dashboard
 ---
@@ -18,7 +18,7 @@ The **EVALUATOR** user role is given to the instructor of a class that is utiliz
 
 This is the first page arrived at after logging in. It displays an overview of the evaluator’s courses, showing course titles, statistics on submissions, scores, and student work. It also provides links to recently updated submissions and course projects.
 
-*IMAGE*
+![Image Two](image_assets/evaluator/two.png)
 
 ### Edit User
 ---
@@ -33,16 +33,18 @@ This is the first page arrived at after logging in. It displays an overview of t
  * Click FAQ to access frequently asked questions.
  * VOCAT Tutorial available
 
-*IMAGE*
-*IMAGE*
+![Image Three](image_assets/evaluator/three.png)
+
+![Image Four](image_assets/evaluator/four.png)
 
 ### Course Selection Menu
 ---
 
 The Course Selection Menu can be found in the upper left hand corner of the VOCAT dashboard. Here an evaluator can select a specific course that he or she wishes to examine/manipulate.
 
-*IMAGE*
-*IMAGE*
+![Image Five](image_assets/evaluator/five.png)
+
+![Image Six](image_assets/evaluator/six.png)
 
 ### Creating New Projects
 ---
@@ -53,16 +55,17 @@ The Course Selection Menu can be found in the upper left hand corner of the VOCA
 
 When a class is selected new options appear on the menu bar below the course selection drop-down. The next step in developing your class’ VOCAT instance is creating a new assignment or project. This can be accomplished by clicking the newly available **MANAGE COURSE** selection. From there the evaluator can click **Projects** from the dropdown:
 
-*IMAGE*
-*IMAGE*
+![Image Seven](image_assets/evaluator/seven.png)
+
+![Image Eight](image_assets/evaluator/eight.png)
 
 The next screen that appears should have a **NEW PROJECT** button in the top-right corner, that when clicked, creates a new project:
 
-*IMAGE*
+![Image Nine](image_assets/evaluator/nine.png)
 
 On the **NEW PROJECT** screen the evaluator is asked to give a name to the project and to describe the project. The evaluator also has the option to include an available rubric from a drop down menu in the lower left hand corner.
 
-*IMAGE*
+![Image Ten](image_assets/evaluator/ten.png)
 
 To save the changes click “Save project” button in the lower left corner.
 To go back to the previous page click on the back button on the lower left.
@@ -79,12 +82,13 @@ screen, and click on Edit/Delete in the far right column of the appropriate row.
 will take you to the **EDIT PROJECTS** screen, which looks almost identical to the
 **NEW PROJECT** screen.
 
-*IMAGE*
-*IMAGE*
+![Image Eleven](image_assets/evaluator/eleven.png)
+
+![Image Twelve](image_assets/evaluator/twelve.png)
 
 When the project/assignment is saved the evaluator will be taken to the **PROJECT DETAILS** screen. On this screen the evaluator has the opportunity examine key facets of the project, and edit them as needed. To go back to the previous page from this page, click the back button in the upper right corner.
 
-*IMAGE*
+![Image Thirteen](image_assets/evaluator/thirteen.png)
 
 ### Managing Groups
 ---
@@ -94,8 +98,9 @@ When the project/assignment is saved the evaluator will be taken to the **PROJEC
 
 The next aspect the evaluator will want to access is the Groups page, found underneath the **Manage Course** dropdown. This will take the evaluator to the **MANAGE GROUPS** page where he or she will assign students to appropriate groups.
 
-*IMAGE*
-*IMAGE*
+![Image Fourteen](image_assets/evaluator/fourteen.png)
+
+![Image Fifteen](image_assets/evaluator/fifteen.png)
 
 ### Editing Course Settings
 ---
@@ -110,7 +115,7 @@ evaluator to communicate a course message. This page also gives the evaluator ac
 
 After evaluator has customized these options appropriately, the **SAVE SETTINGS** button is located at the bottom-left corner of the page.
 
-*IMAGE*
+![Image Sixteen](image_assets/evaluator/sixteen.png)
 
 ### Utilizing Rubrics
 ---
@@ -120,7 +125,7 @@ After evaluator has customized these options appropriately, the **SAVE SETTINGS*
 
 From the Rubrics Management Page you can create new rubrics, view all rubrics on your VOCAT instance, or click into existing rubrics for editing. You can also choose to make them “public,” which will make them available to other Vocat evaluators for cloning and modification. To make a Vocat rubric public, click into the rubric, click “Modify,” and then select “Yes” from the “Is this a system-wide rubric?” dropdown menu.
 
-*IMAGE*
+![Image Seventeen](image_assets/evaluator/seventeen.png)
 
 ### Evaluation Overview
 ---
@@ -132,7 +137,7 @@ From the Rubrics Management Page you can create new rubrics, view all rubrics on
 
 Once projects have been created and videos uploaded and scores inputted, the course overview page can be accessed by clicking on Evaluations in the menu in the top-left corner. This page will show thumbnails representative of the content. See the screenshot below as an example.
 
-*IMAGE*
+![Image Eighteen](image_assets/evaluator/eighteen.png)
 
 ### My Rubrics (Create New Rubric)
 
@@ -158,4 +163,4 @@ For each criteria you’ve defined, enter a detailed description by clicking on 
 
 When you are finished. Save your rubric by clicking on the SAVE RUBRIC button below the slider.
 
-*IMAGE*
+![Image Nineteen](image_assets/evaluator/nineteen.png)
