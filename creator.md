@@ -3,7 +3,7 @@
 
 The **CREATOR** user role is given to students in a class that is utilizing the VOCAT system. The following portion of the documentation seeks to make the facets of this user role as direct and clear as possible.
 
-First Steps/Login
+### First Steps/Login
 ---
 
  * Navigate in a browser to the URL app.vocat.io
@@ -11,7 +11,7 @@ First Steps/Login
 
 *IMAGE*
 
-Dashboard
+### Dashboard
 ---
 
  * Creator should see initial greeting and a selection of courses in which the user has been enrolled.
@@ -21,7 +21,7 @@ This is the first page arrived at after logging in. It displays an overview of t
 
 *IMAGE*
 
-Creating New Video Submissions
+### Creating New Video Submissions
 ---
 
  * Navigate to assignment selection
@@ -34,13 +34,13 @@ From here the creator should click on the hyperlink **VIEW SUBMISSION DETAIL** i
 
 *IMAGE*
 
-YouTube and Vimeo
+### YouTube and Vimeo
 ---
 
 Please visit our video documntation for instructions on uploading files to Vimeo and YouTube:
 [Video Documentation](#)
 
-Upload to VOCAT servers
+### Upload to VOCAT servers
 ---
 
 If the creator chooses to upload a video directly to VOCAT, it should be kept in mind that the video format must be **AVI, FLV, MP4,** or **MPEG-2**. Maximum size of a video must be less than 1MB. After clicking **UPLOAD A VIDEO** button you will be given the option to **DRAG AND DROP OR CLICK TO SELECT A VIDEO FILE**. A user can simply drag a video file into this box, and the uploading process will begin, or the creator can click the button that these options are written on, which will bring up a local file selection interface. You will have to wait for a moment as your video is transcoded, but after this process your video should be ready to view.
@@ -53,24 +53,24 @@ To looking like this:
 
 *IMAGE*
 
-Annotations
+### Annotations
 ---
 
 Both the creator and evaluator have the ability to annotate video submissions. The annotation tool automatically logs the time at which the annotation is composed. All the creator or evaluator has to do to annotate is during video playback, simply enter annotation text in the text box below video screen that reads ***Enter a video annotation…***
 
 *IMAGE*
 
-Scores
+### Scores
 ---
 
 The creator can examine scores given to them by their evaluator. a thermometer-style visualization reports the percentage out of 100. If the creator clicks on this visualization more rubric detail appears below, giving more clarity to the evaluator’s critique.
 
-Discussions
+### Discussions
 ---
 
 Creators can also engage in a discussion section that supplements each submitted video. A textbox appears under the DISCUSSIONS header. This allows for feedback and communication between creator-evaluator and/or creator-creator.
 
-Help Dropdown (Arrow Glyph)
+### Help Dropdown (Arrow Glyph)
 ---
 
  * **Activate Help Overlay**
