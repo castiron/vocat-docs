@@ -1,0 +1,111 @@
+// Variables
+//----------
+
+// Colors
+// --------------------------------------------------------
+$white: #fff;
+$black: #000;
+
+// Neutrals
+// --------------------------
+// Colors/neutrals of the same general hue are ordered
+// by their B (brightness) value in hex ('a' being highest)
+// IE higher number = brighter color
+$offBlack: #404041;
+$neutral3: #58585b;
+$neutral5: #808284;
+$neutral7: #a7a9ab;
+$neutral9: #f7f7f7;
+
+// Accents
+// --------------------------
+$accent-primary: #00a79e;
+$accent-primary6: #009c92;
+$accent-primary7: #43b5ae;
+$accent-primary9: #bde5e2;
+
+// Typographic hierarchy
+// --------------------------------------------------------
+// Used for REM mixins
+$fontSizeDefault: 16;
+// Used in base partial, declared here
+$fontPercentDefault: 100%;
+// 33px
+$alpha: 2.0625em;
+// 29px
+$beta: 1.8125em;
+//25px
+$gamma: 1.563em;
+// 23px
+$delta: 1.4375em;
+// 22px
+$epsilon: 1.375em;
+// 20px
+$zeta: 1.25em;
+// 18px
+$eta: 1.125em;
+// 17px
+$theta: 1.0625em;
+// 16px
+$iota: 1em;
+// 15px
+$kappa: 0.938em;
+// 14px
+$lambda: 0.875em;
+// $mu: ;
+// $nu: ;
+
+
+// Measurements
+// --------------------------------------------------------
+// With 15px padding on either side
+$containerMaxWidth: 995px;
+$containerMinWidth: 320px;
+
+$containerThinWidth: 695px;
+$contentThinWidth: 645px;
+
+$containerMaxPadding: .938; // Numerical unit to be used with REM mixin or + em
+
+$sectionPadding: 5.75em;
+
+$columnSpacing: 5em;
+
+$baseLineHeight: 1.4;
+$verticalSpace: $baseLineHeight * 1em;
+
+// $durationFast: 0.1s;
+$duration: 0.5s;
+// $durationSlow: 0.4s;
+$timing: ease-out;
+
+// Z-Indeces
+// --------------------------
+//Page: 0-99
+//Header: 100-199 
+
+// Font Weights
+// --------------------------------------------------------
+$light: 300;
+$regular: 400;
+$semibold: 600;
+// $bold: 700;
+
+// Responsive breakpoints
+// Name these whatever you like
+// I chose:
+// https://en.wikipedia.org/wiki/List_of_lakes_by_area
+// --------------------------------------------------------
+$superior: $containerMaxWidth;
+// $victoria: ;
+$huron: 900px;
+// $michigan: ;
+$baikal: 750px;
+$malawi: 700px;
+// $erie: ;
+// $winnipeg: ;
+// $ontario: 500px;
+$balkhash: 400px;
+// $ladoga: ;
+// $vostok: ;
+// $onega: ;

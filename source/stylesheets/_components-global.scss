@@ -1,0 +1,296 @@
+// Components
+// ----------
+
+// Global
+// --------------------------------------------------------
+// Containers
+// --------------------------
+.container {
+  @extend %container;
+}
+
+// Utility Classes
+// --------------------------
+.screen-reader-text {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+.fallback-image {
+  display: none;
+  .no-svg & {
+    display: inline-block;
+  }
+}
+
+figure {
+  .fallback {
+    display: none;
+    .no-svg & {
+      display: inline-block;
+    }
+  }
+  .svg {
+    .no-svg & {
+      display: none;
+    }
+  }
+}
+
+// Header
+// --------------------------------------------------------
+.header {
+  @include vendor-transition($duration, top, $timing);
+  width: 100%;
+  background-color: $accent-primary7;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  // Headroom classes
+  &.unpinned {
+    top: -100%;
+  }
+  .container {
+    position: relative;
+  }
+  @include respond($malawi){
+    @include rem(font-size, .85);
+    text-align: center;
+    // NB Removes container padding on minimum breakpoint
+    .container {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+}
+
+.logo {
+  line-height: 0;
+  background-color: $accent-primary6;
+  display: inline-block;
+  figure {
+    padding: 1.5625em;
+  }
+  img {
+    width: 5.5em;
+    // Preserves height in IE
+    height: 100%;
+  }
+  .style1 {
+    fill: $white;
+  }
+  @include respond($malawi){
+    width: 100%;
+    figure {
+      padding: .7em;
+    }
+    img {
+      width: 6em;
+    }
+  }
+}
+
+.nav-primary {
+  padding-right: $containerMaxPadding + em;
+  position: absolute;
+  right: 0;
+  top: 2.125em;
+  ul {
+    @extend %horizontal-list-padded;
+    li {
+      @extend %type-theta;
+      &.active {
+        a {
+          color: $white;
+          font-weight: $semibold;
+        }
+      }
+      a {
+        color: $accent-primary9;
+        .home & {
+          color: $white;
+        }
+      }
+    }
+  }
+  @include respond($malawi){
+    position: static;
+    padding-top: .8em;
+    padding-bottom: .2em;
+    ul {
+      li {
+        padding-right: .8em;
+        padding-left: .8em;
+      }
+      li:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+// Content
+// --------------------------------------------------------
+.content {
+  .container {
+    padding-top: 11.125em;
+    padding-bottom: 7.25em;
+    // Globally pad top level sections
+    > section + section {
+      padding-top: $sectionPadding;
+    }
+    > main + section {
+      padding-top: $sectionPadding;
+    }
+    > section + aside {
+      padding-top: $sectionPadding;
+    }
+  }
+  @include respond($malawi) {
+    @include rem(font-size, .95);
+  }
+  @include respond($malawi) {
+    @include rem(font-size, .8);
+  }
+  // NB Adjusted padding next to hero images, this declaration could
+  // be moved depending on where the hero ends up
+  .hero + .container {
+    padding-top: 6.25em;
+  }
+}
+
+// Footer
+// --------------------------------------------------------
+.footer {
+  background-color: $neutral9;
+  padding-bottom: 3.75em;
+  box-shadow: 0 400em 0 400em $neutral9;
+  @include respond($malawi){
+    @include rem(font-size, .8);
+    padding-top: 3em;
+  }
+}
+
+.logo-footer {
+  svg, img {
+    width: 5.625em;
+    height: 1.231em;
+    // Override styles applied by SVG optimizer
+    .style1 {
+      fill: $accent-primary;
+    }
+  }
+}
+
+.nav-utility {
+  background-color: $accent-primary;
+  padding-top: 1.875em;
+  padding-bottom: 1.875em;
+  ul {
+    @extend %horizontal-list-padded;
+  }
+  li {
+    vertical-align: middle;
+    @extend %type-kappa-strong;
+    line-height: $kappa;
+  }
+  a {
+    color: $white;
+  }
+  .container {
+    position: relative;
+  }
+  .icon-nav {
+    @extend %icon-before;
+  }
+  .contact {
+    &:before {
+      @include svg(balloon-white);
+      width: 1.667em;
+      height: 1.4em;
+    }
+  }
+  .email {
+    &:before {
+      @include svg(mail-white);
+      width: 1.667em;
+      height: 1.133em;
+    }
+  }
+  .magnify {
+    &:before {
+      @include svg(magnify-white);
+      width: 1em;
+      height: 1em;
+    }
+  }
+}
+
+.footer-search {
+  position: absolute;
+  right: $containerMaxPadding + em;
+  top: 0;
+  form {
+    display: inline-block;
+  }
+  input {
+    @extend %input-text;
+    @include placeholder($white); // 0D
+    width: 11.333em;
+    color: $accent-primary9;
+    border-color: $white;
+  }
+  button {
+    visibility: hidden;
+    width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  @include respond($baikal){
+    position: static;
+    padding-top: .5em;
+    .search-form {
+      width: 89%;
+    }
+    input {
+      width: 98%;
+    }
+  }
+}
+
+.nav-network {
+  padding-top: 2.188em;
+  ul {
+    @extend %horizontal-list;
+    @include respond($malawi){
+      text-align: center;
+      li {
+        padding-right: 1.4065em;
+        padding-left: 1.4065em;
+      }
+    }
+    li {
+      padding-right: 2.813em;
+      margin-bottom: .8em;
+      vertical-align: middle;
+    }
+  }
+}
+
+.footer-logo-baruch {
+  width: 5.5em;
+  height: 51px;
+}
+
+.footer-logo-ctl {
+  width: 7.5em;
+  height: 82px;
+}
+
+.footer-logo-cic {
+  width: 10.5em;
+  height: 36px;
+}
+

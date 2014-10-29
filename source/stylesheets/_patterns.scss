@@ -1,0 +1,341 @@
+// Patterns
+// --------
+
+// Basic utility patterns
+// --------------------------------------------------------
+%thin-glyphs {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Container 
+// --------------------------------------------------------
+%container {
+  max-width: $containerMaxWidth;
+  min-width: $containerMinWidth;
+  @include rem(padding-left, $containerMaxPadding);
+  @include rem(padding-right, $containerMaxPadding);
+  margin: 0 auto 0;
+  .lt-ie9 & {
+    min-width: 960px;
+  }
+}
+
+%content-thin {
+  @extend %grid-block;
+  max-width: $containerThinWidth;
+  display: inline-block;
+  vertical-align: top;
+}
+
+%content-aside {
+  @extend %grid-block;
+  max-width: 270px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+// Grid
+// --------------------------------------------------------
+%grid-block {
+  // To keep relative text sizing/alignment, we use
+  // negative margin on grid elements. May revisit this if browser inconsitency is an issue
+  margin-right: -3px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+// Responsive: Wide
+// --------------------------
+$gridPadding3: 5.2%;
+%grid-container-3 {
+  margin-right: -$gridPadding3;
+  margin-left: -$gridPadding3;
+  margin-bottom: -3em;
+}
+
+%grid-element-3 {
+  @extend %grid-block;
+  width: 33.33%;
+  padding-right: $gridPadding3;
+  padding-left: $gridPadding3;
+  padding-bottom: 3em;
+}
+
+$gridPadding2: 6.269%;
+%grid-container-2 {
+  margin-right: -$gridPadding2;
+  margin-left: -$gridPadding2;
+  margin-bottom: -3em;
+}
+
+%grid-element-2 {
+  @extend %grid-block;
+  width: 50%;
+  padding-right: $gridPadding2;
+  padding-left: $gridPadding2;
+  padding-bottom: 3em;
+}
+
+// 50% grids with narrow spacing, used by content elements
+$gridPadding2n: 4.56%;
+%grid-container-2n {
+  margin-right: -$gridPadding2n;
+  margin-left: -$gridPadding2n;
+  margin-bottom: -3em;
+}
+
+%grid-element-2n {
+  @extend %grid-block;
+  width: 50%;
+  padding-right: $gridPadding2n;
+  padding-left: $gridPadding2n;
+  padding-bottom: 3em;
+}
+
+// Responsive: Medium
+// --------------------------
+@include respond($malawi) {
+  %grid-container-3 {
+    margin-right: -$gridPadding2;
+    margin-left: -$gridPadding2;
+    margin-bottom: -3em;
+  }
+
+  %grid-element-3 {
+    width: 50%;
+    padding-right: $gridPadding2;
+    padding-left: $gridPadding2;
+    margin-bottom: 3em;
+  }
+}
+
+@include respond($balkhash) {
+  %grid-container-3, %grid-container-2, %grid-container-2n {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: -1.5em;
+  } 
+  %grid-element-3, %grid-element-2, %grid-element-2n {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 1.5em;
+  }
+}
+
+// Typography
+// --------------------------------------------------------
+%type-alpha {
+  font-size: $alpha;
+  font-weight: $semibold;
+}
+
+%type-beta {
+  font-size: $beta;
+  font-weight: $semibold;
+}
+
+%type-gamma {
+  font-size: $gamma;
+  font-weight: $regular;
+}
+
+%type-gamma-strong {
+  font-size: $gamma;
+  font-weight: $semibold;
+}
+
+%type-delta {
+  font-size: $delta;
+  font-weight: $light;
+}
+
+%type-epsilon {
+  font-size: $epsilon;
+  font-weight: $semibold;
+}
+
+%type-zeta {
+  font-size: $zeta;
+  font-weight: $light;
+}
+
+%type-zeta-strong {
+  font-size: $zeta;
+  font-weight: $semibold;
+}
+
+%type-eta {
+  font-size: $eta;
+  font-weight: $semibold;
+}
+
+%type-theta {
+  font-size: $theta;
+  font-weight: $regular;
+  letter-spacing: 0.015em;
+}
+
+%type-iota {
+  font-size: $iota;
+  font-weight: $light;
+  letter-spacing: 0.015em;
+}
+
+%type-iota-strong {
+  @extend %type-iota;
+  font-weight: $semibold;
+}
+
+%type-kappa-strong {
+  font-size: $kappa;
+  font-weight: $semibold;
+}
+
+%type-kappa {
+  font-size: $kappa;
+  font-weight: $regular;
+}
+
+%type-lambda {
+  font-size: $lambda;
+  line-height: 1.429;
+  letter-spacing: 0.015em;
+}
+
+%type-lambda-light {
+  font-size: $lambda;
+  font-weight: $light;
+  line-height: 1.429;
+  letter-spacing: 0.015em;
+}
+
+// Paragraph
+// --------------------------
+%columnar {
+  @include columns;
+  @include respond($malawi){
+    @include columns(1);
+  }
+}
+
+// Links
+// --------------------------
+%bare-focus {
+  &:focus {
+    outline: none;
+  }
+}
+
+// Buttons
+// --------------------------
+%button-go {
+  @extend %type-kappa;
+  @extend %icon-after;
+  min-width: 10.188em;
+  text-align: center;
+  white-space: nowrap;
+  color: $white;
+  padding: .75em;
+  border: 0;
+  background-color: $accent-primary;
+  display: inline-block;
+  &:after {
+    @include svg(arrow-round-right-white);
+    width: 21px;
+    height: 1.4em;
+    margin-top: -1%;
+  }
+  & + & {
+    margin-left: 2em;
+  }
+}
+
+// Prevents user from accidentally selecting text
+// on click, helpful for labels
+%no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+// Lists
+// --------------------------
+%unstyled-list {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+%horizontal-list {
+  @extend %unstyled-list;
+  li {
+    display: inline-block;
+  }
+}
+
+%horizontal-list-padded {
+  @extend %horizontal-list;
+  li {
+    padding-left: 2.5em;
+  }
+  li:first-child {
+    padding-left: 0;
+  }
+}
+
+// Input
+// --------------------------
+%input-text {
+  @extend %type-eta;
+  @include placeholder($neutral3);
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid $accent-primary;
+  outline: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+// Icon Patterns
+// --------------------------
+%icon-before {
+  &:before {
+    content: "";
+    margin-right: .667em;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+%icon-after {
+  &:after {
+    content: "";
+    margin-left: .667em;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+// Component patterns
+// --------------------------------------------------------
+%callout-dark {
+  background-color: $accent-primary;
+  color: $white;
+  a {
+    color: $white;
+  }
+  .more-link:after{
+    @include svg(arrow-round-right-white)
+  }
+}
+
+%callout-light {
+  background-color: $neutral9;
+  header {
+    color: $accent-primary;
+  }
+  a {
+    color: $accent-primary;
+  }
+}

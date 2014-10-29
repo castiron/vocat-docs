@@ -1,0 +1,62 @@
+// Content Project
+// ---------------
+
+// Declare content elements that do not fall within the standard MCE/RTE
+
+// Content Grids
+// --------------------------------------------------------
+.feature-list{
+  @extend %unstyled-list;
+  .feature-grid-3 & {
+    @extend %grid-container-3;
+  }
+  .feature-grid-2 & {
+    @extend %grid-container-2;
+  }
+  li {
+    .feature-grid-3 & {
+      @extend %grid-element-3;
+    }
+    .feature-grid-2 & {
+      @extend %grid-element-2;
+    }
+  }
+  figure {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2.313em;
+    display: inline-block;
+    position: relative;
+    img {
+      width: 100%;
+      max-width: 15.25em;
+      height: auto;
+      .no-svg & {
+        width: auto;
+      }
+    }
+  }
+  p {
+    @extend %type-lambda-light; 
+    .feature-grid-2 & {
+      font-weight: $regular; //OD
+    }
+  }
+  .feature-heading {
+    @extend %type-eta;
+    color: $accent-primary;
+    padding-bottom: .5em;
+  }
+}
+
+// Content Highlights
+// --------------------------------------------------------
+.content-highlight {
+  @include full-bleed($neutral9);
+  padding-top: $sectionPadding/2;
+  padding-bottom: $sectionPadding/2;
+  margin-top: $sectionPadding/2;
+  ul {
+    @extend %unstyled-list;
+  }
+}

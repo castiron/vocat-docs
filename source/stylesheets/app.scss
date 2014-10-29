@@ -1,0 +1,88 @@
+/*!
+
+   Styles for Vocat.io
+   By Naomi Rubin (naomi@castironcoding.com)
+
+*/
+
+@import "normalize";
+@import "variables";
+@import "fonts";
+@import "icons";
+@import "mixins-base";
+@import "mixins-project";
+@import "base";
+@import "patterns";
+@import "content-base";
+@import "content-project";
+@import "components-global";
+@import "components-shared";
+
+// $bootstrap-sass-asset-helper: false;
+// @import "bootstrap/bootstrap";
+
+
+// TODO Below are high-level wordpress classes. 
+// By the time this theme is finished they should all be shunted into their
+// appropriate partials or a wordpress partial
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body { }
+
+
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.banner { }
+
+
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.content { }
+
+
+
+/* ==========================================================================
+   Primary Content
+   ========================================================================== */
+
+.main { }
+
+/* Gallery Shortcode */
+.gallery-row { padding: 15px 0; }
+
+
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+.sidebar { }
+
+
+
+/* ==========================================================================
+   Posts
+   ========================================================================== */
+
+.hentry header { }
+.hentry time { }
+.hentry .byline { }
+.hentry .entry-content { }
+.hentry footer { }
+
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.content-info { }

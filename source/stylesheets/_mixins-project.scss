@@ -1,0 +1,10 @@
+// Project specific mixins
+// -----------------------
+@mixin columns($count: 2, $spacing: $columnSpacing){
+  -webkit-column-count: $count;
+  -moz-column-count: $count;
+  column-count: $count;
+  -webkit-column-gap: $columnSpacing;
+  -moz-column-gap: $columnSpacing;
+  column-gap: $columnSpacing;
+}

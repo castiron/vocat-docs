@@ -1,0 +1,177 @@
+// Content 
+// -------
+
+// Typography
+// --------------------------------------------------------
+// Headings
+// --------------------------
+h1, .section-header {
+  @extend %type-epsilon;
+  color: $accent-primary;
+  // Uses important to override class use on otherwise default headers
+  padding-bottom: .41em !important;
+  border-bottom: 5px solid $accent-primary;
+  margin-bottom: 1.364em;
+  display: inline-block;
+  &.padded  {
+    padding-top: 4.545em;
+  }
+}
+
+h2, .content-subheader-gamma {
+  @extend %type-zeta-strong;
+  padding-bottom: .65em;
+}
+
+h3, .content-subheader-zeta {
+  @extend %type-gamma;
+  color: $accent-primary;
+  padding-bottom: .65em;
+}
+
+// MCE Defaults
+.content-page {
+  h1, h2, {
+    @extend .section-header;
+  }
+  h3, h4 {
+    @extend .content-subheader-gamma;
+  }
+  h5, h6 {
+    @extend .content-subheader-zeta;
+  }
+}
+
+ol {
+  .content-page & {
+    counter-reset: item;
+    list-style-type: none;
+    list-style-position: inside;
+    padding-left: 0;
+    li{
+      position: relative;
+      padding-bottom: 1.438em;
+      &:before {
+        font-weight: $semibold;
+        content: counter(item) " ";
+        counter-increment: item;
+        padding-right: 0.625em;
+      }
+    }
+  }
+  p {
+    .content-page & {
+      font-weight: $regular;
+    }
+  }
+  // Additional highlight-only number styles
+  // These keep the numbers columnar
+  .content-highlight & {
+    li {
+      // Number width + its padding
+      padding-left: 1.5625em;
+      padding-bottom: .438em;
+      &:before {
+        position: absolute;
+        left: 0;
+      }
+    }
+  }
+}
+
+// Paragraphs
+// --------------------------
+main p {
+  line-height: 1.55;
+}
+
+.content-page .columns, .content-page > p {
+  // Make top level pagraphs two-column styled by default
+  @extend %columnar;
+  text-align: justify;
+}
+
+.content-article {
+  @extend %content-thin;
+  @include columns(0);
+  max-width: $contentThinWidth;
+  display: block;
+}
+
+pre {
+  background-color: $neutral9;
+  padding: 1em;
+}
+
+// Links
+// --------------------------
+.content-page a {
+  color: $accent-primary;
+}
+
+.more-link {
+  @extend %icon-after;
+  color: $accent-primary;
+  line-height: 1.4em;
+  &:after {
+    @include svg(arrow-round-right-teal);
+    width: 1.4em;
+    height: 1.4em;
+    vertical-align: bottom;
+  }
+}
+
+// Buttons
+// --------------------------
+.button-block-large {
+  text-align: center;
+  background-color: $accent-primary;
+  padding-top: 3.75em;
+  padding-bottom: 3.75em;
+  margin-bottom: 1.5625em;
+  display: block;
+  a {
+    @extend %type-beta;
+    color: $white;
+    padding-bottom: .138em;
+    border-bottom: 4px solid $white;
+  }
+}
+
+a.button-link {
+  @extend %button-go;
+  color: $white;
+}
+
+// Layout Elements
+// --------------------------
+hr {
+  border: 0;
+  height: 1px;
+  background-color: $neutral3;
+  margin: 1.063em 0;
+}
+
+// Lists
+// --------------------------
+// ul
+.content-page {
+  .columnar-list {
+    @extend %unstyled-list;
+    @extend %grid-container-2n;
+    > li {
+      @extend %grid-element-2n;
+    }
+  }
+}
+
+
+// Additional styles for elements appearing inside the MCE
+// --------------------------------------------------------
+// Add simple layout sample for highlights
+.mceContentBody {
+  .content-highlight {
+    background-color: $neutral9;
+    padding: 2em;
+  }
+}

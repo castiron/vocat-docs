@@ -1,0 +1,276 @@
+// Shared Components
+// -----------------
+
+// Content Containers
+// --------------------------------------------------------
+.content-section {
+  padding-top: 3.75em;
+}
+
+// Entry Lists
+// --------------------------------------------------------
+.entry-list {
+  @extend %content-thin;
+  max-width: $contentThinWidth;
+  text-align: justify;
+  display: block;
+  &.with-sidebar {
+    @extend %content-thin;
+    width: 72.02%;
+    padding-right: 5.3125em;
+    @include respond($malawi){
+      width: 100%;
+      padding-right: 0;
+    }
+  }
+}
+
+// Search Results
+// --------------------------
+.index-search {
+  form {
+    @extend %icon-before;
+    padding-top: 1em;
+    display: inline-block;
+    &:before {
+      @include svg(magnify-teal);
+      width: 1em;
+      height: 1em;
+    }
+  }
+  .input-group {
+    display: inline-block;
+    padding-bottom: 3em;
+  }
+  input {
+    @extend %input-text;
+    width: 12em;
+  }
+  button {
+    visibility: hidden;
+  }
+}
+
+
+// Summaries
+// --------------------------
+.entry-summary {
+  padding-bottom: 1.875em;
+  margin-bottom: 1.5625em;
+  border-bottom: 1px solid $neutral3;
+  &:last-child { 
+    border: none;
+  }
+  .more-link {
+    @extend %type-kappa;
+    padding-top: 1.067em;
+    display: block;
+  }
+  header {
+    padding-bottom: 1.75em;
+    text-align: left; // OD
+  }
+}
+
+// TODO: Add class to MCE content to prevent override requirement on template elements like
+// h3.class
+h3.summary-header {
+  @extend %type-zeta-strong;
+  color: $neutral3;
+  line-height: 1.2em;
+}
+
+// Full Entries
+// --------------------------
+.entry {
+  text-align: justify;
+  padding-top: 1.375em;
+  padding-bottom: 4.75em;
+  border-bottom: 1px solid $neutral3;
+  .section-header + &{
+    padding-top: 0;
+  }
+  &:last-child { 
+    border: none;
+  }
+  header {
+    padding-bottom: 1.75em;
+    text-align: left; // OD
+  }
+}
+
+// Single post header has same spacing
+.post {
+  header {
+    padding-bottom: 1.75em;
+    text-align: left; // OD
+  }
+}
+
+.entry-content {
+  text-align: justify;
+}
+
+.entry-meta {
+  @extend %type-kappa;
+  padding-bottom: 2em;
+  color: $neutral7;
+  a {
+    color: $neutral7;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  // WordPress Generated categories list
+  .post-categories {
+    @extend %horizontal-list;
+    display: inline-block;
+  }
+}
+
+h3.entry-header {
+  @extend %type-epsilon;
+  color: $neutral3;
+  padding-bottom: 0.045em;
+  // Larger on singles
+  .post & {
+    @extend %type-alpha;
+  }
+}
+
+.entry-author {
+  @extend %type-kappa;
+  display: block;
+}
+
+.blog-link {
+  @extend %type-epsilon;
+  padding-top: 1.5em;
+  display: block;
+}
+
+// Single Entries
+// --------------------------
+.page-nav {
+  @extend %type-eta;
+}
+
+.pagination {
+  @extend %type-epsilon;
+  @include clearfix;
+  padding-top: 1.5em;
+  clear: both;
+  ul {
+    @extend %horizontal-list;
+  }
+}
+
+.pagination-old {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  .blog & {
+    @extend %icon-before;
+    &:before {
+      @include svg(arrow-round-left-teal);
+      height: 1.4em;
+      width: 1.4em;
+    }
+  }
+}
+
+.pagination-new {
+  width: 45%;
+  text-align: right;
+  float: right;
+  display: inline-block;
+  vertical-align: top;
+  .blog & {
+    @extend %icon-after;
+    &:after {
+      @include svg(arrow-round-right-teal);
+      height: 1.4em;
+      width: 1.4em;
+    }
+  }
+}
+
+// Sidebar
+// --------------------------------------------------------
+.sidebar {
+  @extend %content-aside;
+  width: 27.98%;
+  @include respond($huron){
+    @include rem(font-size, .9);
+  }
+  @include respond($malawi){
+    width: 100%;
+    max-width: 100%;
+    @include rem(font-size, 1);
+  }
+}
+
+section + section {
+  margin-top: 2.5em;
+}
+
+.callout {
+  text-align: center;
+  padding: 1.25em;
+  &.external {
+    @extend %callout-dark;
+  }
+  &.internal {
+    @extend %callout-light;
+  }
+  header {
+    border-bottom: 4px solid;
+    margin-bottom: .875em;
+    display: inline-block;
+    h5 {
+      @extend %type-gamma-strong;
+      padding: 0;
+    }
+  }
+  p {
+    @extend %type-lambda;
+  }
+  .more-link {
+    @extend %type-eta;
+    padding-top: .833em;
+    display: inline-block;
+  }
+}
+
+// Hero
+// --------------------------------------------------------
+.hero {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-caption {
+  @extend %container;
+  color: $white;
+  padding-top: 11.375em;
+  padding-bottom: 2.688em;
+
+  h1 {
+    @extend %type-alpha;
+    padding-bottom: .212em;
+    border-bottom: 4px solid $white;
+    display: inline-block;
+  }
+
+  p {
+    @extend %type-zeta;
+    max-width: 20em; 
+    padding-top: 1.75em;
+  }
+}
+
+.hero-logo-baruch {
+  width: 12.063em;
+  height: 1.625em;
+  margin-top: .75em;
+}
