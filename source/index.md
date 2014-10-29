@@ -1,7 +1,7 @@
 ---
-title: Welcome to Middleman
+title: Vocat Documentation
 ---
 
-<h3 class="section-header">More about Vocat</h3>
+<h3 class="section-header">Vocat Documentation</h3>
 
 CTL People, put some content here!
