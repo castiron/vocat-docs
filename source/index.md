@@ -16,7 +16,7 @@ You will be recognized as a "Creator" by Vocat if you are a student in a course 
 You can click on the CREATOR title above to access Creator documentation in full, or you can select a
 specific form of instruction from the list below.
 
-<h2><a href="#">EVALUATOR</a></h2>
+<h2><a href="evaluator.html">EVALUATOR</a></h2>
 You will be recognized as an "Evaluator" by Vocat if you are an instructor or an assitant to the instructor
 in a course that utilizes the Vocat tool.
 You can	 click on the EVALUATOR title above to access Evaluator documentation in full, or you can select a
