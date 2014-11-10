@@ -28,6 +28,7 @@
     display: inline-block;
     position: relative;
     img {
+      border: 1px solid black !important;
       width: 100%;
       max-width: 15.25em;
       height: auto;
@@ -37,7 +38,7 @@
     }
   }
   p {
-    @extend %type-lambda-light; 
+    @extend %type-lambda-light;
     .feature-grid-2 & {
       font-weight: $regular; //OD
     }
