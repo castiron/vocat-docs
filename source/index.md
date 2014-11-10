@@ -35,7 +35,7 @@ specific form of instruction from  the list below.
 * <a href="evaluator.html#settings">Settings</a>
 * <a href="evaluator.html#rubrics">Rubrics</a>
 
-<h2><a href="#">RECORDING & UPLOADING VIDEOS</a></h2>
+<h2><a href="record_upload.html">RECORDING & UPLOADING VIDEOS</a></h2>
 * <a href="#">Using Android or iPhone to record</a>
 * <a href="#">Uploading to YouTube</a>
 * <a href="#">Uploading to Vimeo</a>
