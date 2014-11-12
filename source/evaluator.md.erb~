@@ -22,7 +22,7 @@ Navigate in a browser to the URL **baruch.vocat.io**
 Log in with your Baruch username and password (same password used to log in to
 email, on-campus WiFi, and computer lab or classroom computers)
 
-![Login Screen](<%= image_path 'content_assets/evaluator/login.png' %>)
+<img style="border:1px solid black;" src="content_assets/evaluator/login.png" >
 
 <p id="dashboard"></p>
 
@@ -35,11 +35,19 @@ email, on-campus WiFi, and computer lab or classroom computers)
 This is the first page you will arrive at after logging in. It displays an
 overview of your courses with submission and scoring data for each.
 
+<img style="border:1px solid black" src="content_assets/evaluator/dash.png" height="97%" width="97%">
+
 You can navigate to your course from the course selection menu in the top left
 corner of the page, or by clicking on the course title in the Dashboard.
 
+<img style="border:1px solid black" src="content_assets/evaluator/dash_classcircled.png" height="97%" width="97%">
+<img style="border:1px solid black" src="content_assets/evaluator/dash_leftcornercircled.png" height="97%" width="97%">
+
 The Dashboard also provides links to course projects and recently added videos,
 which you can click to proceed directly to those pages.
+
+<img style="border:1px solid black" src="content_assets/evaluator/dash_subcircled.png" height="97%" width="97%">
+
 
 <p id="course"></p>
 
@@ -54,6 +62,8 @@ names aligned vertically down the left side and assignments aligned horizontally
 across the top. (Group assignments can be seen in a similar grid by clicking
 the **“Groups”** radio button above the list of student names.)
 
+<img style="border:1px solid black" src="content_assets/evaluator/gridwarrow.png" height="97%" width="97%">
+
 <p id="projects"></p>
 
 ---
@@ -62,27 +72,45 @@ the **“Groups”** radio button above the list of student names.)
 
 ### Creating Projects
 
-To create a new assignment in your course, click “Manage Course” at the top of
-the page, then click “Projects” in the expanded menu that appears. Here you can
+<!-- CURRENT STOPPING POINT NOV 10 -->
+
+To create a new assignment in your course, make sure you have clicked through to the Course View.
+From there, click on the course name at the top of
+the page, then click “Projects” located under "SETUP YOUR COURSE" in the expanded
+menu that appears. 
+
+<img style="border:1px solid black" src="content_assets/evaluator/create_proj.png" height="97%" width="97%">
+
+Here you can
 either edit existing projects (if you have them) by clicking the project name,
 or you can create a new project by clicking the **“NEW PROJECT +”** button.
+
+<img style="border:1px solid black" src="content_assets/evaluator/new_proj.png" height="97%" width="97%">
 
 When creating a new project: give it a short name that distinguishes it from
 other assignments in your course, write a brief description of the project in
 the “Description” field, and select a rubric from the rubrics dropdown menu if
 you are planning to score videos within Vocat.
 
+<img style="border:1px solid black" src="content_assets/evaluator/proj_desc.png" height="97%" width="97%">
+
 In the “Who can create a submission for this project?” dropdown menu, choose
-“students” if it is an individual project, “groups” if it is a group project,
-and “groups and users” if it could be either. This just determines whether the
+“Individual” if it is an individual project, “Group” if it is a group project,
+and “Both” if it could be either. This just determines whether the
 project shows up in the “Students” grid or the “Groups” grid on the Evaluations
 page.
+
+<img style="border:1px solid black" src="content_assets/evaluator/ind_proj.png" height="97%" width="97%">
 
 Next, select a due date (or presentation date if filmed in class), and click the
 **“SAVE PROJECT”** button.
 
+<img style="border:1px solid black" src="content_assets/evaluator/save_proj.png" height="97%" width="97%">
+
 When you click "Evaluations" at the top of the page, you will now see this
 assignment in the grid.
+
+<img style="border:1px solid black" src="content_assets/evaluator/proj_proof.png" height="97%" width="97%">
 
 <p id="groups"></p>
 
@@ -272,8 +300,10 @@ the total score possible in the rubric.
 be assessing, then click the **“Save”** button. Repeat this step until all of
 your criteria are entered.
   * Note: Vocat does not currently support weighted rubrics. As a workaround,
-  you can create multiple criteria that are actually assessing the same thing. For example, if you have a 10-point rubric, you can make “Organization” worth 30 points by creating three criteria: “Organization 1-10,”
-“Organization 11-20,” and “Organization 21-30.”
+  you can create multiple criteria that are actually assessing the same thing.
+  For example, if you have a 10-point rubric, you can make “Organization” worth
+  30 points by creating three criteria: “Organization 1-10,”
+  “Organization 11-20,” and “Organization 21-30.”
   * If a student scores 25 out of 30 on Organization, give them 10 out of 10 on
   the Organization 1-10 criteria, 10 out of 10 on Organization 11-20, and 5 out of
   10 on Organization 21-30.
