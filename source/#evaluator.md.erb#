@@ -1,4 +1,5 @@
----
+ist packages
+m---
 title: Evaluator Documentation
 ---
 
@@ -57,10 +58,10 @@ which you can click to proceed directly to those pages.
 
 ### Course View
 
-When you enter a course, you will see the â€œEvaluationsâ€ grid featuring student
+When you enter a course, you will see the œôòüEvaluationsœôòı grid featuring student
 names aligned vertically down the left side and assignments aligned horizontally
 across the top. (Group assignments can be seen in a similar grid by clicking
-the **â€œGroupsâ€** radio button above the list of student names.)
+the **œôòüGroupsœôòı** radio button above the list of student names.)
 
 <img style="border:1px solid black" src="content_assets/evaluator/gridwarrow.png" height="97%" width="97%">
 
@@ -76,34 +77,34 @@ the **â€œGroupsâ€** radio button above the list of student names.)
 
 To create a new assignment in your course, make sure you have clicked through to the Course View.
 From there, click on the course name at the top of
-the page, then click â€œProjectsâ€ located under "SETUP YOUR COURSE" in the expanded
+the page, then click œôòüProjectsœôòı located under "SETUP YOUR COURSE" in the expanded
 menu that appears. 
 
 <img style="border:1px solid black" src="content_assets/evaluator/create_proj.png" height="97%" width="97%">
 
 Here you can
 either edit existing projects (if you have them) by clicking the project name,
-or you can create a new project by clicking the **â€œNEW PROJECT +â€** button.
+or you can create a new project by clicking the **œôòüNEW PROJECT +œôòı** button.
 
 <img style="border:1px solid black" src="content_assets/evaluator/new_proj.png" height="97%" width="97%">
 
 When creating a new project: give it a short name that distinguishes it from
 other assignments in your course, write a brief description of the project in
-the â€œDescriptionâ€ field, and select a rubric from the rubrics dropdown menu if
+the œôòüDescriptionœôòı field, and select a rubric from the rubrics dropdown menu if
 you are planning to score videos within Vocat.
 
 <img style="border:1px solid black" src="content_assets/evaluator/proj_desc.png" height="97%" width="97%">
 
-In the â€œWho can create a submission for this project?â€ dropdown menu, choose
-â€œIndividualâ€ if it is an individual project, â€œGroupâ€ if it is a group project,
-and â€œBothâ€ if it could be either. This just determines whether the
-project shows up in the â€œStudentsâ€ grid or the â€œGroupsâ€ grid on the Evaluations
+In the œôòüWho can create a submission for this project?œôòı dropdown menu, choose
+œôòüIndividualœôòı if it is an individual project, œôòüGroupœôòı if it is a group project,
+and œôòüBothœôòı if it could be either. This just determines whether the
+project shows up in the œôòüStudentsœôòı grid or the œôòüGroupsœôòı grid on the Evaluations
 page.
 
 <img style="border:1px solid black" src="content_assets/evaluator/ind_proj.png" height="97%" width="97%">
 
 Next, select a due date (or presentation date if filmed in class), and click the
-**â€œSAVE PROJECTâ€** button.
+**œôòüSAVE PROJECTœôòı** button.
 
 <img style="border:1px solid black" src="content_assets/evaluator/save_proj.png" height="97%" width="97%">
 
@@ -120,22 +121,22 @@ assignment in the grid.
 
 ### Creating Groups
 
-If you have group assignments, first make sure the project youâ€™ve created has
-been set to â€œGroupsâ€ or â€œGroups and Usersâ€ <a href="#projects">(see above
+If you have group assignments, first make sure the project youœôòùve created has
+been set to œôòüGroupsœôòı or œôòüGroups and Usersœôòı <a href="#projects">(see above
 section)</a>. You can check this by clicking the Groups button above the list
 of student names, and seeing if the assignment appears in the group Evaluations
 grid.
 
 To create new groups, go to **Manage Course > Groups**.
 
-Click the **â€œADD GROUP +â€** button to create a new group. It will automatically be
-named â€œGroup #1â€ but you can rename it by clicking the group title at the top of
-the page. If you change group titles, be sure to click the orange â€œClick here to
-save your changesâ€ notice that appears above the group list.
+Click the **œôòüADD GROUP +œôòı** button to create a new group. It will automatically be
+named œôòüGroup #1œôòı but you can rename it by clicking the group title at the top of
+the page. If you change group titles, be sure to click the orange œôòüClick here to
+save your changesœôòı notice that appears above the group list.
 
-If you want to create random groups, simply click the the **â€œADD GROUP +â€** button
-repeatedly until youâ€™ve created the number of groups you want, then click the
-**â€œAUTO ASSIGN TO GROUPS >â€** button, and the class will be split up evenly into
+If you want to create random groups, simply click the the **œôòüADD GROUP +œôòı** button
+repeatedly until youœôòùve created the number of groups you want, then click the
+**œôòüAUTO ASSIGN TO GROUPS >œôòı** button, and the class will be split up evenly into
 those groups.
 
 <p id="evaluations"></p>
@@ -146,17 +147,17 @@ those groups.
 
 ### Evaluations
 
-Clicking â€œEvaluationsâ€ at the top of the page will take you back to the
+Clicking œôòüEvaluationsœôòı at the top of the page will take you back to the
 Evaluations grid. This grid pattern allows you to quickly see three things
 about each assignment:
 
 1.     Whether or not a video has been uploaded for a particular student,
-denoted by the green â€œplayâ€ button in a circle.
+denoted by the green œôòüplayœôòı button in a circle.
 2.     The assignment grade (in percent), if given.
 3.     Whether or not the score has been published so that the student can see
 it.
 
-Clicking on any of these items will take you into the studentâ€™s video page for
+Clicking on any of these items will take you into the studentœôòùs video page for
 that particular project.
 
 <p id="videos"></p>
@@ -167,9 +168,9 @@ that particular project.
 
 ### Uploading Videos
 
-From the Evaluations grid, click on the gray â€œPlayâ€ icon corresponding to the
+From the Evaluations grid, click on the gray œôòüPlayœôòı icon corresponding to the
 student and project that you want to upload a video for. This will take you to
-that studentâ€™s page for that specific assignment. (For groups, do the same, but
+that studentœôòùs page for that specific assignment. (For groups, do the same, but
 in the Groups evaluation grid.)
 
 You should see an empty, green media frame with a button in the center that
@@ -203,10 +204,10 @@ another student.
 ### Annotations
 
 The annotation tool allows you to make specific comments about points in the
-studentâ€™s presentation, and automatically logs the time in the video at which
+studentœôòùs presentation, and automatically logs the time in the video at which
 the annotation is composed. When you see something you want to annotate during
-playback, simply type the note in the text box that reads **â€œEnter a video
-annotationâ€¦â€** just below the video screen.
+playback, simply type the note in the text box that reads **œôòüEnter a video
+annotationœôó¦œôòı** just below the video screen.
 
 The video will automatically pause when you begin typing, and will resume when
 you press enter to submit the annotation. Students can also annotate their own
@@ -220,21 +221,21 @@ videos as a way of analyzing their performance.
 
 ### Scoring
 
-Under the studentâ€™s video you will see the **â€œSCORESâ€** header and a button
-that says **â€œCreate a New Evaluation.â€**
+Under the studentœôòùs video you will see the **œôòüSCORESœôòı** header and a button
+that says **œôòüCreate a New Evaluation.œôòı**
 
 Clicking that button will expand the rubric to show sliders for each criteria.
 You can either drag the sliders to the desired scores with your mouse, or click
 the number on the right side and type in your scores. The meter at the top of
 the rubric will automatically update with the total percentage score.
 
-You can save your evaluation at any time by clicking the **â€œSave Evaluationâ€**
+You can save your evaluation at any time by clicking the **œôòüSave Evaluationœôòı**
 button on the right side. The status icon to the left shows whether the rubric
 is published or unpublished.
 
 By default, the score is unpublished, meaning it is not available to the
-student. If you click the icon that says **â€œUnpublished,â€** it will change the
-status to **â€œPublished.â€**
+student. If you click the icon that says **œôòüUnpublished,œôòı** it will change the
+status to **œôòüPublished.œôòı**
 
 <p id="discussions"></p>
 
@@ -261,14 +262,14 @@ If you select **Manage Course > Settings** from the menu at the top of the
 course page, you can open up several visibility, discussion, and evaluation
 options to your students.
 
-* **â€œEnable public discussionâ€** allows everyone in the class to see each
-otherâ€™s videos and comment on them. By default, students can only see their own
+* **œôòüEnable public discussionœôòı** allows everyone in the class to see each
+otherœôòùs videos and comment on them. By default, students can only see their own
 videos.
-* **â€œEnable peer reviewâ€** allows students to see each otherâ€™s videos and grade
+* **œôòüEnable peer reviewœôòı** allows students to see each otherœôòùs videos and grade
 them on the rubric that is attached to the project (if there is one).
-* **â€œAllow self-evaluationâ€** offers students the option of assessing their own
+* **œôòüAllow self-evaluationœôòı** offers students the option of assessing their own
 video on the rubric that is attached to the project.
-* **â€œAllow creators to upload videosâ€** offers students the ability to upload
+* **œôòüAllow creators to upload videosœôòı** offers students the ability to upload
 their own videos to the system. This means that you can create out-of-class
 assignments and students can upload videos from their own computers.
 
@@ -280,38 +281,38 @@ assignments and students can upload videos from their own computers.
 
 ### Rubrics
 
-To create or edit rubrics, click the **â€œMy Rubricsâ€** link at the top of the page.
-This brings you to a screen with rubrics youâ€™ve created under the â€œYOUR RUBRICSâ€
-header, as well as some system-wide rubrics under â€œVOCAT RUBRICS.â€
+To create or edit rubrics, click the **œôòüMy Rubricsœôòı** link at the top of the page.
+This brings you to a screen with rubrics youœôòùve created under the œôòüYOUR RUBRICSœôòı
+header, as well as some system-wide rubrics under œôòüVOCAT RUBRICS.œôòı
 
 If one of the system-wide rubrics is similar what you want, you can create an
-editable version in your own rubric library by clicking the **â€œSelect an Actionâ€**
-button to the right of the rubric name, then clicking **â€œClone Rubric.â€**
+editable version in your own rubric library by clicking the **œôòüSelect an Actionœôòı**
+button to the right of the rubric name, then clicking **œôòüClone Rubric.œôòı**
 
-To create a rubric from scratch, click the **â€œNew Rubric +â€** button at the top
+To create a rubric from scratch, click the **œôòüNew Rubric +œôòı** button at the top
 right corner of the page.
 
-1. Give your rubric a name and brief description in the â€œRubric Nameâ€ and
-â€œDescriptionâ€ fields.
-2. In â€œLowest Possible Scoreâ€ and â€œHighest Possible Score,â€ enter the lowest
+1. Give your rubric a name and brief description in the œôòüRubric Nameœôòı and
+œôòüDescriptionœôòı fields.
+2. In œôòüLowest Possible Scoreœôòı and œôòüHighest Possible Score,œôòı enter the lowest
 and highest scores possible for ***each criteria you will be grading on***, not
 the total score possible in the rubric.
-3. Click the **â€œAdd Criteria +â€** button and enter the first item that you will
-be assessing, then click the **â€œSaveâ€** button. Repeat this step until all of
+3. Click the **œôòüAdd Criteria +œôòı** button and enter the first item that you will
+be assessing, then click the **œôòüSaveœôòı** button. Repeat this step until all of
 your criteria are entered.
   * Note: Vocat does not currently support weighted rubrics. As a workaround,
   you can create multiple criteria that are actually assessing the same thing.
-  For example, if you have a 10-point rubric, you can make â€œOrganizationâ€ worth
-  30 points by creating three criteria: â€œOrganization 1-10,â€
-  â€œOrganization 11-20,â€ and â€œOrganization 21-30.â€
+  For example, if you have a 10-point rubric, you can make œôòüOrganizationœôòı worth
+  30 points by creating three criteria: œôòüOrganization 1-10,œôòı
+  œôòüOrganization 11-20,œôòı and œôòüOrganization 21-30.œôòı
   * If a student scores 25 out of 30 on Organization, give them 10 out of 10 on
   the Organization 1-10 criteria, 10 out of 10 on Organization 11-20, and 5 out of
   10 on Organization 21-30.
-4. Click the **â€œAdd Range +â€** button and enter a name for your lowest scoring
+4. Click the **œôòüAdd Range +œôòı** button and enter a name for your lowest scoring
 range, then repeat for the next lowest and so on, until you have entered all
 your scoring ranges (poor, average, and excellent, for example). You can rename
 a range or criteria at any time just by clicking on its name.
-5. To edit the points that each scoring range encompasses, use the â€œRUBRIC
-SCORE RANGESâ€ slider above your list of criteria and ranges.
-6. When youâ€™ve completed your rubric, click the **â€œSave >â€** button, and it
+5. To edit the points that each scoring range encompasses, use the œôòüRUBRIC
+SCORE RANGESœôòı slider above your list of criteria and ranges.
+6. When youœôòùve completed your rubric, click the **œôòüSave >œôòı** button, and it
 will show up in your rubric list.
