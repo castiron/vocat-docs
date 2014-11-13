@@ -1,8 +1,6 @@
-ist packages
-m---
+---
 title: Evaluator Documentation
 ---
-
 
 # Evaluator
 
@@ -58,10 +56,10 @@ which you can click to proceed directly to those pages.
 
 ### Course View
 
-When you enter a course, you will see the œôòüEvaluationsœôòı grid featuring student
+When you enter a course, you will see the â€œEvaluationsâ€ grid featuring student
 names aligned vertically down the left side and assignments aligned horizontally
 across the top. (Group assignments can be seen in a similar grid by clicking
-the **œôòüGroupsœôòı** radio button above the list of student names.)
+the **â€œGroupsâ€** radio button above the list of student names.)
 
 <img style="border:1px solid black" src="content_assets/evaluator/gridwarrow.png" height="97%" width="97%">
 
@@ -77,34 +75,34 @@ the **œôòüGroupsœôòı** radio button above the list of student names.)
 
 To create a new assignment in your course, make sure you have clicked through to the Course View.
 From there, click on the course name at the top of
-the page, then click œôòüProjectsœôòı located under "SETUP YOUR COURSE" in the expanded
+the page, then click â€œProjectsâ€ located under "SETUP YOUR COURSE" in the expanded
 menu that appears. 
 
 <img style="border:1px solid black" src="content_assets/evaluator/create_proj.png" height="97%" width="97%">
 
 Here you can
 either edit existing projects (if you have them) by clicking the project name,
-or you can create a new project by clicking the **œôòüNEW PROJECT +œôòı** button.
+or you can create a new project by clicking the **â€œNEW PROJECT +â€** button.
 
 <img style="border:1px solid black" src="content_assets/evaluator/new_proj.png" height="97%" width="97%">
 
 When creating a new project: give it a short name that distinguishes it from
 other assignments in your course, write a brief description of the project in
-the œôòüDescriptionœôòı field, and select a rubric from the rubrics dropdown menu if
+the â€œDescriptionâ€ field, and select a rubric from the rubrics dropdown menu if
 you are planning to score videos within Vocat.
 
 <img style="border:1px solid black" src="content_assets/evaluator/proj_desc.png" height="97%" width="97%">
 
-In the œôòüWho can create a submission for this project?œôòı dropdown menu, choose
-œôòüIndividualœôòı if it is an individual project, œôòüGroupœôòı if it is a group project,
-and œôòüBothœôòı if it could be either. This just determines whether the
-project shows up in the œôòüStudentsœôòı grid or the œôòüGroupsœôòı grid on the Evaluations
+In the â€œWho can create a submission for this project?â€ dropdown menu, choose
+â€œIndividualâ€ if it is an individual project, â€œGroupâ€ if it is a group project,
+and â€œBothâ€ if it could be either. This just determines whether the
+project shows up in the â€œStudentsâ€ grid or the â€œGroupsâ€ grid on the Evaluations
 page.
 
 <img style="border:1px solid black" src="content_assets/evaluator/ind_proj.png" height="97%" width="97%">
 
 Next, select a due date (or presentation date if filmed in class), and click the
-**œôòüSAVE PROJECTœôòı** button.
+**â€œSAVE PROJECTâ€** button.
 
 <img style="border:1px solid black" src="content_assets/evaluator/save_proj.png" height="97%" width="97%">
 
@@ -121,23 +119,29 @@ assignment in the grid.
 
 ### Creating Groups
 
-If you have group assignments, first make sure the project youœôòùve created has
-been set to œôòüGroupsœôòı or œôòüGroups and Usersœôòı <a href="#projects">(see above
+If you have group assignments, first make sure the project youâ€™ve created has
+been set to â€œGroupsâ€ or â€œGroups and Usersâ€ <a href="#projects">(see above
 section)</a>. You can check this by clicking the Groups button above the list
 of student names, and seeing if the assignment appears in the group Evaluations
 grid.
 
-To create new groups, go to **Manage Course > Groups**.
+To create new groups, go to **SETUP YOUR COURSE > Groups**.
 
-Click the **œôòüADD GROUP +œôòı** button to create a new group. It will automatically be
-named œôòüGroup #1œôòı but you can rename it by clicking the group title at the top of
-the page. If you change group titles, be sure to click the orange œôòüClick here to
-save your changesœôòı notice that appears above the group list.
+<img style="border:1px solid black" src="content_assets/evaluator/setup_groups.png" height="97%" width="97%">    
 
-If you want to create random groups, simply click the the **œôòüADD GROUP +œôòı** button
-repeatedly until youœôòùve created the number of groups you want, then click the
-**œôòüAUTO ASSIGN TO GROUPS >œôòı** button, and the class will be split up evenly into
+Click the **â€œADD GROUP +â€** button to create a new group. It will automatically be
+named â€œGroup #1â€ but you can rename it by clicking the group title at the top of
+the page. If you change group titles, be sure to click the â€œUpdate group nameâ€ button that appears below the text field.
+
+<img style="border:1px solid black" src="content_assets/evaluator/add_group.png" height="97%" width="97%">
+<img style="border:1px solid black" src="content_assets/evaluator/edit_group.png" height="97%" width="97%">
+
+If you want to create random groups, simply click the the **â€œADD GROUP +â€** button
+repeatedly until youâ€™ve created the number of groups you want, then click the
+**â€œAUTO ASSIGN TO GROUPS >â€** button, and the class will be split up evenly into
 those groups.
+
+<img style="border:1px solid black" src="content_assets/evaluator/auto_group.png" height="97%" width="97%">
 
 <p id="evaluations"></p>
 
@@ -147,18 +151,20 @@ those groups.
 
 ### Evaluations
 
-Clicking œôòüEvaluationsœôòı at the top of the page will take you back to the
+Clicking on the course you are managing in the menu at the top of the page will take you back to the
 Evaluations grid. This grid pattern allows you to quickly see three things
 about each assignment:
 
 1.     Whether or not a video has been uploaded for a particular student,
-denoted by the green œôòüplayœôòı button in a circle.
-2.     The assignment grade (in percent), if given.
-3.     Whether or not the score has been published so that the student can see
-it.
+denoted by a checkmark under the word **MEDIA**.
+2.     The assignment grade (in percent), if given, underneath the word **SCORE**.
+3.     Whether or not the score has been published so that the student can see it, illustrated
+by a checkmark under the word **PUBLISHED**.
 
-Clicking on any of these items will take you into the studentœôòùs video page for
+Clicking on any of these items will take you into the studentâ€™s video page for
 that particular project.
+
+<img style="border:1px solid black" src="content_assets/evaluator/evaluation.png" height="97%" width="97%">
 
 <p id="videos"></p>
 
@@ -168,16 +174,20 @@ that particular project.
 
 ### Uploading Videos
 
-From the Evaluations grid, click on the gray œôòüPlayœôòı icon corresponding to the
+From the Evaluations grid, click on the info-block (MEDIA/SCORE/PUBLISHED) corresponding to the
 student and project that you want to upload a video for. This will take you to
-that studentœôòùs page for that specific assignment. (For groups, do the same, but
+that studentâ€™s page for that specific assignment. (For groups, do the same, but
 in the Groups evaluation grid.)
 
-You should see an empty, green media frame with a button in the center that
+You should see an empty, light-gray media frame with a button in the center that
 reads: **ADD A VIDEO TO THIS SUBMISSION**. Click this button.
+
+<img style="border:1px solid black" src="content_assets/evaluator/video_button.png" height="97%" width="97%">
 
 This gives the creator the following options: **UPLOAD A VIDEO, ADD A YOUTUBE
 VIDEO, ADD A VIMEO VIDEO,** and **BACK**.
+
+<img style="border:1px solid black" src="content_assets/evaluator/vidscreen1.png" height="97%" width="97%">
 
 1. Click the **UPLOAD A VIDEO** button
 2. If the video is easily accessible on your desktop, you can simply click
@@ -187,13 +197,17 @@ This feature only works in Google Chrome.)</font>
 file system interface should appear, allowing you to select the video from the
 folder in which you have it stored.
 4. Once you select the video for upload, the upload process begins and you
-will see a spinning icon. <font color="red">It is important that you do not
+will see a new button that says **Upload in progress**. <font color="red">It is important that you do not
 close the browser tab or go to another web page while this is happening. </font>
 You may work in other tabs or other programs, though.
 5. When the file is done uploading from your computer, you will see a
 notification telling you to check back in 5-10 minutes while the video
 processes. At this point, you are free to exit the page or upload a video for
 another student.
+
+<img style="border:1px solid black" src="content_assets/evaluator/vidscreen2.png" height="97%" width="97%">
+
+<img style="border:1px solid black" src="content_assets/evaluator/vidscreen3.png" height="97%" width="97%">
 
 <p id="annotations"></p>
 
@@ -204,10 +218,12 @@ another student.
 ### Annotations
 
 The annotation tool allows you to make specific comments about points in the
-studentœôòùs presentation, and automatically logs the time in the video at which
+studentâ€™s presentation, and automatically logs the time in the video at which
 the annotation is composed. When you see something you want to annotate during
-playback, simply type the note in the text box that reads **œôòüEnter a video
-annotationœôó¦œôòı** just below the video screen.
+playback, simply type the note in the text box that reads **â€œEnter a video
+annotationâ€¦â€** just below the video screen.
+
+<img style="border:1px solid black" src="content_assets/evaluator/annotation.png" height="97%" width="97%">
 
 The video will automatically pause when you begin typing, and will resume when
 you press enter to submit the annotation. Students can also annotate their own
@@ -221,21 +237,29 @@ videos as a way of analyzing their performance.
 
 ### Scoring
 
-Under the studentœôòùs video you will see the **œôòüSCORESœôòı** header and a button
-that says **œôòüCreate a New Evaluation.œôòı**
+Under the studentâ€™s video you will see the **â€œEVALUATIONSâ€** header and a gray hyperlink
+that says **â€œAdd Evaluationâ€**
 
-Clicking that button will expand the rubric to show sliders for each criteria.
+<img style="border:1px solid black" src="content_assets/evaluator/evaluate1.png" height="97%" width="97%">
+
+Clicking that hyperlink will expand the rubric to show sliders for each criteria.
 You can either drag the sliders to the desired scores with your mouse, or click
 the number on the right side and type in your scores. The meter at the top of
 the rubric will automatically update with the total percentage score.
 
-You can save your evaluation at any time by clicking the **œôòüSave Evaluationœôòı**
-button on the right side. The status icon to the left shows whether the rubric
+<img style="border:1px solid black" src="content_assets/evaluator/evaluate2.png" height="97%" width="97%">
+
+You can save your evaluation at any time by clicking the **â€œSave Evaluationâ€**
+button on the right side. The status icon to the lower right shows whether the rubric
 is published or unpublished.
 
+<img style="border:1px solid black" src="content_assets/evaluator/evaluate3.png" height="97%" width="97%">
+
 By default, the score is unpublished, meaning it is not available to the
-student. If you click the icon that says **œôòüUnpublished,œôòı** it will change the
-status to **œôòüPublished.œôòı**
+student. If you click the button next to the prompt that reads **â€œVisible To Student?â€** it will change the
+status to **â€œPublished.â€** (Changing the "No" to a "Yes")
+
+<img style="border:1px solid black" src="content_assets/evaluator/evaluate4.png" height="97%" width="97%">
 
 <p id="discussions"></p>
 
@@ -250,6 +274,8 @@ which appears at the bottom of the video page. The commenting feature allows
 you to post new comments or reply to existing ones, making it easy to follow
 the flow of the discussion.
 
+<img style="border:1px solid black" src="content_assets/evaluator/discussion.png" height="97%" width="97%"> 
+
 <p id="settings"></p>
 
 ---
@@ -258,20 +284,24 @@ the flow of the discussion.
 
 ### Settings
 
-If you select **Manage Course > Settings** from the menu at the top of the
-course page, you can open up several visibility, discussion, and evaluation
+If you select **SETUP YOUR COURSE > Settings** from the menu at the top of the
+page that is revealed when clicking on the course name, you can open up several visibility, discussion, and evaluation
 options to your students.
 
-* **œôòüEnable public discussionœôòı** allows everyone in the class to see each
-otherœôòùs videos and comment on them. By default, students can only see their own
+<img style="border:1px solid black" src="content_assets/evaluator/settings1.png" height="97%" width="97%">
+
+* **â€œEnable public discussionâ€** allows everyone in the class to see each
+otherâ€™s videos and comment on them. By default, students can only see their own
 videos.
-* **œôòüEnable peer reviewœôòı** allows students to see each otherœôòùs videos and grade
+* **â€œEnable peer reviewâ€** allows students to see each otherâ€™s videos and grade
 them on the rubric that is attached to the project (if there is one).
-* **œôòüAllow self-evaluationœôòı** offers students the option of assessing their own
-video on the rubric that is attached to the project.
-* **œôòüAllow creators to upload videosœôòı** offers students the ability to upload
+* **â€œAllow creators to upload videosâ€** offers students the ability to upload
 their own videos to the system. This means that you can create out-of-class
 assignments and students can upload videos from their own computers.
+* **â€œAllow self-evaluationâ€** offers students the option of assessing their own
+video on the rubric that is attached to the project.
+
+<img style="border:1px solid black" src="content_assets/evaluator/settings2.png" height="97%" width="97%">
 
 <p id="rubrics"></p>
 
@@ -281,38 +311,52 @@ assignments and students can upload videos from their own computers.
 
 ### Rubrics
 
-To create or edit rubrics, click the **œôòüMy Rubricsœôòı** link at the top of the page.
-This brings you to a screen with rubrics youœôòùve created under the œôòüYOUR RUBRICSœôòı
-header, as well as some system-wide rubrics under œôòüVOCAT RUBRICS.œôòı
+To create or edit rubrics, click the **RUBRICS > My Rubricsâ€** link that appears at the top of the page
+when clicking on the course name.
+
+<img style="border:1px solid black" src="content_assets/evaluator/myrubrics.png" height="97%" width="97%">
+
+This brings you to a screen with rubrics youâ€™ve created under the â€œYOUR RUBRICSâ€
+header, as well as some system-wide rubrics under â€œVOCAT RUBRICS.â€
+
+<img style="border:1px solid black" src="content_assets/evaluator/rubricspage.png" height="97%" width="97%">
 
 If one of the system-wide rubrics is similar what you want, you can create an
-editable version in your own rubric library by clicking the **œôòüSelect an Actionœôòı**
-button to the right of the rubric name, then clicking **œôòüClone Rubric.œôòı**
+editable version in your own rubric library by clicking the **â€œActionsâ€**
+button to the right of the rubric name, then clicking **â€œClone Rubric.â€**
 
-To create a rubric from scratch, click the **œôòüNew Rubric +œôòı** button at the top
+<img style="border:1px solid black" src="content_assets/evaluator/clonerubric.png" height="97%" width="97%">
+
+To create a rubric from scratch, click the **â€œCreate a New Rubric +â€** button at the top
 right corner of the page.
 
-1. Give your rubric a name and brief description in the œôòüRubric Nameœôòı and
-œôòüDescriptionœôòı fields.
-2. In œôòüLowest Possible Scoreœôòı and œôòüHighest Possible Score,œôòı enter the lowest
+1. Give your rubric a name and brief description in the â€œRubric Nameâ€ and
+â€œDescriptionâ€ fields.
+2. In â€œLowest Possible Scoreâ€ and â€œHighest Possible Score,â€ enter the lowest
 and highest scores possible for ***each criteria you will be grading on***, not
 the total score possible in the rubric.
-3. Click the **œôòüAdd Criteria +œôòı** button and enter the first item that you will
-be assessing, then click the **œôòüSaveœôòı** button. Repeat this step until all of
+3. Click the **â€œAdd Criteria +â€** button in the **Rubric Properties Grid** and enter the first
+item that you will
+be assessing, then click the **â€œSaveâ€** button. Repeat this step until all of
 your criteria are entered.
   * Note: Vocat does not currently support weighted rubrics. As a workaround,
   you can create multiple criteria that are actually assessing the same thing.
-  For example, if you have a 10-point rubric, you can make œôòüOrganizationœôòı worth
-  30 points by creating three criteria: œôòüOrganization 1-10,œôòı
-  œôòüOrganization 11-20,œôòı and œôòüOrganization 21-30.œôòı
+  For example, if you have a 10-point rubric, you can make â€œOrganizationâ€ worth
+  30 points by creating three criteria: â€œOrganization 1-10,â€
+  â€œOrganization 11-20,â€ and â€œOrganization 21-30.â€
   * If a student scores 25 out of 30 on Organization, give them 10 out of 10 on
   the Organization 1-10 criteria, 10 out of 10 on Organization 11-20, and 5 out of
   10 on Organization 21-30.
-4. Click the **œôòüAdd Range +œôòı** button and enter a name for your lowest scoring
+4. Click the **â€œAdd Range +â€** button and enter a name for your lowest scoring
 range, then repeat for the next lowest and so on, until you have entered all
 your scoring ranges (poor, average, and excellent, for example). You can rename
 a range or criteria at any time just by clicking on its name.
-5. To edit the points that each scoring range encompasses, use the œôòüRUBRIC
-SCORE RANGESœôòı slider above your list of criteria and ranges.
-6. When youœôòùve completed your rubric, click the **œôòüSave >œôòı** button, and it
+5. To edit the points that each scoring range encompasses, use the â€œRUBRIC
+SCORE RANGESâ€ slider above your list of criteria and ranges.
+6. When youâ€™ve completed your rubric, click the **â€œSave >â€** button, and it
 will show up in your rubric list.
+
+<img style="border:1px solid black" src="content_assets/evaluator/range_criteria1.png" height="97%" width="97%">
+<img style="border:1px solid black" src="content_assets/evaluator/criteria.png" height="97%" width="97%">
+<img style="border:1px solid black" src="content_assets/evaluator/range.png" height="97%" width="97%">
+<img style="border:1px solid black" src="content_assets/evaluator/range_criteria2.png" height="97%" width="97%">

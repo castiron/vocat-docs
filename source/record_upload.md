@@ -8,6 +8,12 @@ Recording and Uploading Videos
 
 There are three suggested ways to record videos for use on the VOCAT 3 system: iPhone/iPad “Camera” app, Android “Camera” app, or some kind of flip-camera style recording device (devices available in [the library](http://www.baruch.cuny.edu/library/students/techloan.html))
 
+<p id="iphone"></p>
+
+---
+
+<p></p>
+
 ### **I. Using Android to record and upload to youtube and vimeo**
 
  * Open the default “Camera” application
@@ -23,6 +29,12 @@ There are three suggested ways to record videos for use on the VOCAT 3 system: i
  * From here we recommend that you upload the file directly to youtube, vimeo, or connect your phone to your computer with a USB.
  * Once you connect with USB save the video file to your computer in one of the following formats: AVI, FLV, MP4 or MPEG-2.
  * Maximum size of a video must be less than 1GB
+
+<p id="youtube"></p>
+
+---
+
+<p></p>
 
 ### **III. Uploading to YouTube**
 
@@ -40,6 +52,12 @@ To get started uploading videos on YouTube, follow the steps below:
  * Click the Upload link at the top of the page.
  * Select the video you'd like to upload from your computer. You can also record a video from your webcam, or create a video slideshow.
  * Once the upload is completed we will send you an email to notify you that your video is done uploading and processing. You can then forward that email to friends or family for easy sharing.
+
+<p id="vimeo"></p>
+
+---
+
+<p></p>
 
 ### **IV. Uploading to Vimeo**
 (Vimeo uploading instructions pulled from: [http://www.steves-digicams.com/knowledge-center/how-tos/online-sharing-social-networking/how-to-upload-videos-to-vimeo.html](http://www.steves-digicams.com/knowledge-center/how-tos/online-sharing-social-networking/how-to-upload-videos-to-vimeo.html):
@@ -79,6 +97,12 @@ As soon as the video is uploaded, the video will then be converted automatically
 If you are interested in uploading lots of files, then you will need to use the desktop uploader. This is optional, but will make uploading files much simpler.
 
 Click the download button to download the uploader to your computer. Accept the license details, and save the file on your computer. Follow all the instructions to install the application on your computer. This will then walk you through the process of uploading files to the service.
+
+<p id="vocat"></p>
+
+---
+
+<p></p>
 
 ### **V. Uploading/Deploying Videos to VOCAT:**
 
