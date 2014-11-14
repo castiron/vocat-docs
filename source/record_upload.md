@@ -8,6 +8,11 @@ Recording and Uploading Videos
 
 There are three suggested ways to record videos for use on the VOCAT 3 system: iPhone/iPad “Camera” app, Android “Camera” app, or some kind of flip-camera style recording device (devices available in [the library](http://www.baruch.cuny.edu/library/students/techloan.html))
 
+* <a href="#iphone">Using Android or iPhone to record</a>
+* <a href="#youtube">Uploading to YouTube</a>
+* <a href="#vimeo">Uploading to Vimeo</a>
+* <a href="#vocat">Uploading/Deploying Videos to Vocat</a>
+
 <p id="iphone"></p>
 
 ---
@@ -29,6 +34,8 @@ There are three suggested ways to record videos for use on the VOCAT 3 system: i
  * From here we recommend that you upload the file directly to youtube, vimeo, or connect your phone to your computer with a USB.
  * Once you connect with USB save the video file to your computer in one of the following formats: AVI, FLV, MP4 or MPEG-2.
  * Maximum size of a video must be less than 1GB
+
+<a href="#">**Back to top**</a>
 
 <p id="youtube"></p>
 
@@ -52,6 +59,8 @@ To get started uploading videos on YouTube, follow the steps below:
  * Click the Upload link at the top of the page.
  * Select the video you'd like to upload from your computer. You can also record a video from your webcam, or create a video slideshow.
  * Once the upload is completed we will send you an email to notify you that your video is done uploading and processing. You can then forward that email to friends or family for easy sharing.
+
+<a href="#">**Back to top**</a>
 
 <p id="vimeo"></p>
 
@@ -98,6 +107,8 @@ If you are interested in uploading lots of files, then you will need to use the 
 
 Click the download button to download the uploader to your computer. Accept the license details, and save the file on your computer. Follow all the instructions to install the application on your computer. This will then walk you through the process of uploading files to the service.
 
+<a href="#">**Back to top**</a>
+
 <p id="vocat"></p>
 
 ---
@@ -130,3 +141,5 @@ When logged into your creator account, on your dashboard any class projects set 
  * If the video is easily accessible on your desktop, you can simply click on it with your mouse, hold, and drag into the box.
  * You can also click DRAG AND DROP OR CLICK TO SELECT A VIDEO FILE, and a file system interface should appear, allowing you to select the video from the folder in which you have it stored.
  * Once you select the video for upload, the upload process begins. You may see a button appear that will tell you to be prepared to wait while the upload process completes. After waiting the suggested amount of time, reload your browser, and your video should be available to access.
+
+<a href="#">**Back to top**</a>
