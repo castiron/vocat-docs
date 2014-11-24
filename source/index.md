@@ -20,7 +20,7 @@ specific form of instruction from the list below.
 * <a href="creator.html#dashboard">Dashboard</a>
 * <a href="creator.html#vid">Creating New Video Submissions</a>
 * <a href="creator.html#youtube">YouTube and Vimeo</a>
-* <a href="creator.html#servers">Upload to VOCAT servers</a>
+<!-- * <a href="creator.html#servers">Upload to VOCAT servers</a> -->
 * <a href="creator.html#annotations">Annotations</a>
 * <a href="creator.html#scores">Scores</a>
 * <a href="creator.html#discussions">Discussions</a>
