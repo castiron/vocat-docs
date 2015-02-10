@@ -21,11 +21,11 @@ There are three suggested ways to record videos for use on the VOCAT 3 system: i
 
 ### **I. Using Android to record and upload to youtube and vimeo**
 
- * Open the default “Camera” application
+ * Open the default “Camera” application.
  * Record your video. Make sure you record in landscape mode (horizontal), not portrait mode (vertical).
  * From here we recommend that you upload the file directly to youtube, vimeo, or connect your phone to your computer with a USB. (* - See foot of document for more in-depth explanation)
  * Once you connect with USB save the video file to your computer in one of the following formats: AVI, FLV, MP4 or MPEG-2.
- * Maximum size of a video must be less than 1GB
+ * Maximum size of a video must be less than 1GB.
 
 ### **II. Using iPhone to record and upload to youtube and vimeo**
 
