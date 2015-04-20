@@ -12,7 +12,7 @@ and interact with the Vocat environment.  The following categories are designed 
 address any problems or issues.</p>
 
 <h2><a href="creator.html">CREATOR</a></h2>
-You will be recognized as a **Creator** by Vocat if you are a student in a course that utilizes the Vocat tool.
+You will be recognized as a **Creator by Vocat** if you are a student in a course that utilizes the Vocat tool.
 You can click on the CREATOR title above to access Creator documentation in full, or you can select a
 specific form of instruction from the list below.
 
