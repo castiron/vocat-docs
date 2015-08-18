@@ -1,0 +1,149 @@
+---
+title: Admin Documentation
+---
+
+# Administrator
+
+The **ADMINISTRATOR** user role is given to select campus Vocat administrators only.
+
+
+* <a href="#login">First Steps/Login</a>
+* <a href="#dashboard">Dashboard</a>
+* <a href="#createCourses">create courses</a>
+* <a href="#addUsers">How to add users</a>
+* <a href="#rubricLibrary">rubric library</a>
+* <a href="#settings">settings.misc</a>
+
+<p id="login"></p>
+
+---
+
+<p></p>
+
+### First Steps / Login
+
+* Navigate in a browser to the URL *campusname*.vocat.io (i.e. **baruch**.vocat.io,
+**york**.vocat.io, **queens**.vocat.io, etc.)
+* Login credentials based on your campus preferences.
+
+<img style="border:1px solid black;" src="content_assets/evaluator/login.png" height="97%" width="97%">
+
+<a href="#">**Back to top**</a>
+
+
+
+<p id="dashboard"></p>
+
+---
+
+<p></p>
+
+### Dashboard
+
+* Administrator should see the following statistics directly beneath the dynamic navbar:
+  * Number of logins within the last 30 days
+  * Number of users
+  * Number of assets
+  * Number of annotations
+  * Number of discussion posts
+  * Number of courses
+* Administrator should see screenname and (optional) avatar in top right-hand corner of screen.
+
+This is the first page arrived at after logging in. It displays an overview of all courses,
+showing course numbers, course names, number of projects per course, the name of the instructors in each course, the course section, semester, and an action button with further options. 
+
+It is possible to filter the courses by Department Name, Semester, Year, Instructor, and/or Section.
+
+<img style="border:1px solid black;" src="content_assets/admin_8_17/dashTop.png" height="97%" width="97%">
+
+<img style="border:1px solid black;" src="content_assets/admin_8_17/dashBottom.png" height="97%" width="97%">
+
+<a href="#">**Back to top**</a>
+
+<p id="createCourses"></p>
+
+---
+
+<p></p>
+
+### Create Courses
+
+To create a course from scratch click on the add new course button.  When you press this button you'll get a **Create
+Course** form.  Fill out this form and click the **Create Course +** button to complete the creation of a single course.
+
+<img style="border:1px solid black;" src="content_assets/admin_8_17/createcourseone.png" height="97%" width="97%">
+
+<img style="border:1px solid black;" src="content_assets/admin_8_17/createcoursetwo.png" height="97%" width="97%">
+
+
+To create a course via a course request, first navigate to the dynamic navbar, and click on course requests.
+From there, you can inspect the evaluator's submitted settings, and choose to allow the course's creation, or
+contact the evaluator with concerns.
+
+<img style="border:1px solid black;" src="content_assets/admin_8_17/createNav.png" height="97%" width="97%">
+
+**COURSE REQUEST SCREENSHOT (CURRENTLY 500 ERROR)**
+
+<p id="addUsers"></p>
+
+---
+
+<p></p>
+
+
+### Add Users
+
+You can add users either from the dashboard:
+
+<img style="border:1px solid black;" src="content_assets/admin_8_17/evaluatorDash.png" height="97%" width="97%">
+
+
+Or course overview page that appears immidiately after creating a new course:
+
+<img style="border:1px solid black;" src="content_assets/admin_8_17/evaluatorInOverview.png" height="97%" width="97%">
+
+
+<a href="#">**Back to top**</a>
+
+<p id="createCourses"></p>
+
+---
+
+<p></p>
+
+
+### Rubric Library
+
+LOREM IPSUM
+LOREM IPSUM
+LOREM LOREM IPSUM IPSUM
+lorem ipsum *ipsum*
+
+* lorem ipsum
+
+SCREENSHOT
+
+LOREM IPSUM
+
+<a href="#">**Back to top**</a>
+
+<p id="settings"></p>
+
+---
+
+<p></p>
+
+### Settings / MISC.
+
+LOREM IPSUM
+LOREM IPSUM
+LOREM LOREM IPSUM IPSUM
+lorem ipsum *ipsum*
+
+* lorem ipsum
+
+SCREENSHOT
+
+LOREM IPSUM
+
+<a href="#">**Back to top**</a>

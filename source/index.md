@@ -12,7 +12,7 @@ and interact with the Vocat environment.  The following categories are designed 
 address any problems or issues.</p>
 
 <h2><a href="creator.html">CREATOR</a></h2>
-You will be recognized as a "Creator" by Vocat if you are a student in a course that utilizes the Vocat tool.
+You will be recognized as a **Creator** by Vocat if you are a student in a course that utilizes the Vocat tool.
 You can click on the CREATOR title above to access Creator documentation in full, or you can select a
 specific form of instruction from the list below.
 
@@ -39,7 +39,7 @@ specific form of instruction from the list below.
 
 
 <h2><a href="evaluator.html">EVALUATOR</a></h2>
-You will be recognized as an "Evaluator" by Vocat if you are an instructor or an assitant to the instructor
+You will be recognized as an **Evaluator** by Vocat if you are an instructor or an assitant to the instructor
 in a course that utilizes the Vocat tool.
 You can	 click on the EVALUATOR title above to access Evaluator documentation in full, or you can select a
 specific form of instruction from  the list below.
@@ -77,6 +77,17 @@ specific form of instruction from  the list below.
 * <a href="#rubrics">Rubrics</a>
 
 -->
+
+<h2><a href="admin.html">ADMINISTRATOR</a></h2>
+
+The **Administrator** user role is given to select campus Vocat administrators only.
+
+* <a href="admin.html#login">First Steps/Login</a>
+* <a href="admin.html#dashboard">Dashboard</a>
+* <a href="admin.html#createCourses">Create Courses</a>
+* <a href="admin.html#addUsers">How To Add Users</a>
+* <a href="admin.html#rubricLibrary">Rubric Library</a>
+* <a href="admin.html#settings">Settings/MISC.</a>
 
 <h2><a href="record_upload.html">RECORDING & UPLOADING VIDEOS</a></h2>
 * <a href="record_upload.html#iphone">Using Android or iPhone to record</a>
